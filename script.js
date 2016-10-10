@@ -11,4 +11,8 @@ function doStuff(name) {
 
 doStuff(doStuff)
 
+$("#clickme").click(function() {
+  console.log("do thing")
+})
+
 
