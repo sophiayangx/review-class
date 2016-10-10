@@ -31,5 +31,6 @@ $("#button2").keydown(function() {
   $("#button2").css("background-color", "yellow");
 });
 $("#button2").keyup(function() {
-  $("#button2").css("background-color", "blue");
+  $("#button2").css("background-color", "green");
+  console.log("HI")
 });
