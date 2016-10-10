@@ -17,4 +17,10 @@ function whenClicked() {
   console.log("hihi")
   return "111"
 }
-$("#clickme").click(whenClicked)
+//$("#clickme").click(whenClicked)
+
+var a = whenClicked()
+var b = whenClicked
+
+console.log(a.toString())
+console.log(b.toString())
