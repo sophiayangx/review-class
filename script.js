@@ -9,9 +9,11 @@ function doStuff(name) {
 }
 doStuff(doStuff)
 
+//this one
 $("#clickme").click(function() {
   console.log("pls show up");
 });
+//this one
 
 function whenClicked() {
   console.log("hihi")
@@ -26,6 +28,6 @@ $("#button").click(onClick())
 $("#button").click(onClick)
 
 
-$("#button2").keydown(function{
+$("#button2").keydown(function(e) {
   
-})
+});
