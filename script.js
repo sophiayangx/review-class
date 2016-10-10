@@ -31,3 +31,17 @@ $("#button").click(onClick)
 $("#button2").keydown(function() {
   $("button2").css("background-color", "yellow");
 });
+
+
+
+
+
+
+$(document).ready(function(){
+  $("input").keydown(function(){
+    $("input").css("background-color", "yellow");
+  });
+  $("input").keyup(function(){
+    $("input").css("background-color", "pink");
+  });
+});
