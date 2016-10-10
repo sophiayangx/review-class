@@ -13,6 +13,6 @@ doStuff(doStuff)
 
 $("#clickme").click(function() {
   console.log("pls show up");
-})
+});
 
 
