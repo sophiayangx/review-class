@@ -36,7 +36,8 @@ $("#button2").keyup(function() {
 });
 
 
-$("#button3").keydown(function() {
-  $("#button2").css("background-color", "yellow");
-  console.log("HI")
+$("#button3").keydown(function(e) {
+  if (e.keyCode == 13) {
+    $('#button3').click();
+  }
 });
