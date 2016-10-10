@@ -1,5 +1,3 @@
-function hi() {
-  console.log("hi david")
+var names = function hi(name) {
+  console.log("hi" + name)
 }
-
-function willNo
