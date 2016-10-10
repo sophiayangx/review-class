@@ -15,5 +15,6 @@ $("#clickme").click(function() {
 
 function whenClicked() {
   console.log("hihi")
+  return "111"
 }
-$("#button").click(whenClicked)
+$("#clickme").click(whenClicked)
