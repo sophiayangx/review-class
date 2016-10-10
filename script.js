@@ -28,6 +28,6 @@ $("#button").click(onClick())
 $("#button").click(onClick)
 
 
-$("#button2").keydown(function(e) {
-  $("button2")
+$("#button2").keydown(function() {
+  $("button2").css("background-color", "yellow");
 });
