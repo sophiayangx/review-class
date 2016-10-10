@@ -27,14 +27,9 @@ function onClick() {
 $("#button").click(onClick())
 $("#button").click(onClick)
 
-$(document).ready(function(){
 $("#button2").keydown(function() {
   $("#button2").css("background-color", "yellow");
 });
+$("#button2").keyup(function() {
+  $("#button2").css("background-color", "blue");
 });
-
-//$(document).ready(function(){
-//  $("input").keydown(function(){
-//    $("input").css("background-color", "yellow");
-//  });
-//});
