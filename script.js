@@ -18,10 +18,16 @@ var perimeter = function(length, width)
   console.log(length + length + width + width);
 };
 
-perimeter(3,4);
+perimeter(3,5);
 //function(arg1, arg2)
 
-
+if () {
+console.log("noice");
+}
+  
+else {
+console.log("darn")'
+}
 
 
 
