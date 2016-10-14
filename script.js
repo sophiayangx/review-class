@@ -4,9 +4,8 @@ console.log("Hi my name is" + " " + name);
 };
 
 greeting("Sophia");
-//function(arg 1)
 
-
+//jquery function
 $("#button").click(function() {
   console.log("hihi");
 });
@@ -19,16 +18,16 @@ var perimeter = function(length, width)
 };
 
 perimeter(3,5);
-//function(arg1, arg2)
 
-if () {
+//if statement
+if (4%2===0) {
 console.log("noice");
 }
   
 else {
-console.log("darn")'
-}
+console.log("darn");
+};
 
-
+for (
 
 
