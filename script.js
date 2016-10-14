@@ -4,7 +4,7 @@ console.log("Hi my name is" + " " + name);
 };
 
 greeting("Sophia");
-//function(ar)
+//function(arg 1)
 
 
 $("#button").click(function() {
@@ -21,7 +21,7 @@ var perimeter = function(length, width)
 perimeter(3,4);
 //function(arg1, arg2)
 
-//function(arg1, arg2)
+
 
 
 
