@@ -12,6 +12,7 @@ li a {
   text-decoration: none;
   text-align: center;
   
+  
 }
 
 .active {
@@ -19,3 +20,6 @@ li a {
   color: white;
 }
 
+li {
+  display: inline;
+}
