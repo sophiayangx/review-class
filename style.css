@@ -16,15 +16,13 @@ li a {
   padding: 10px 16px;
   text-decoration: none;
   text-align: center;
-  float: left;
+/*  float: left;*/
   color: white;
 }
 
-/*
 .active {
-  background-color: #4CAF50;
+  background-color: #5F9F9F;
 }
-*/
 
 li a:hover {
   background-color: #000000;
