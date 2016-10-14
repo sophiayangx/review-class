@@ -1,7 +1,3 @@
-body {
-  background-image: url("https://cdn.vectorstock.com/i/composite/34,40/diagonal-lines-white-background-vector-3653440.jpg")
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -20,7 +16,7 @@ li a {
   padding: 15px 16px;
   text-decoration: none;
   text-align: center;
-  float: right;
+  float: left;
   color: white;
 }
 

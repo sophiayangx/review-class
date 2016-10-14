@@ -7,3 +7,7 @@ function button() {
 $("#button").click(function() {
   console.log("hihi");
 });
+
+function funct() {
+
+}
