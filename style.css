@@ -18,7 +18,8 @@ li a {
   text-align: center;
   float: right;
 /*  color: black;*/
-  border: 1px black solid;
+  border: 0.1px blue solid;
+  border-radius: 5px;
 }
 
 .active {
@@ -26,5 +27,6 @@ li a {
 }
 
 li a:hover {
-  background-color: #000000;
+  background-color: blue;
+  color: white;
 }
