@@ -3,7 +3,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #dddddd;
+  background-color: #000000;
 }
 
 li a {
@@ -13,9 +13,9 @@ li a {
   text-decoration: none;
   text-align: center;
   float: left;
+  color: white;
 }
 
 .active {
   background-color: #4CAF50;
-  color: white;
 }
