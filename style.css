@@ -3,7 +3,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-/*  background-color: #323232;*/
+  background-color: #323232;
   position: fixed;
   width: 100%;
   top: 0;
@@ -17,9 +17,7 @@ li a {
   text-decoration: none;
   text-align: center;
   float: right;
-/*  color: black;*/
-  border: 0.1px blue solid;
-  border-radius: 5px;
+  color: white;
 }
 
 .active {
@@ -27,6 +25,5 @@ li a {
 }
 
 li a:hover {
-  background-color: blue;
-  color: white;
+  background-color: #000000;
 }
