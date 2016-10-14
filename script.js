@@ -28,4 +28,9 @@ else {
 console.log("darn");
 };
 
+//for loops
+for (var i = 1; i < 11; i = i + 1) {
+  console.log(i);
+}
 
+var list = [1,2,3,4]
