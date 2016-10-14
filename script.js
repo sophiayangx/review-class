@@ -33,4 +33,6 @@ for (var i = 1; i < 11; i = i + 1) {
   console.log(i);
 }
 
+//list
 var list = [1,2,3,4]
+console.log(list);
