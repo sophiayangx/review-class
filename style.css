@@ -2,6 +2,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+
 }
 
 li a {
@@ -9,4 +10,12 @@ li a {
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
+  text-align: center;
+  
 }
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
