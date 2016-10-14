@@ -1,16 +1,18 @@
-button function(name) {
+
+var greeting = function(name) {
 console.log("Hi my name is" + " " + name);
 };
 
-button(sophia);
+greeting("Sophia");
 
 $("#button").click(function() {
   console.log("hihi");
 });
+
 
 var perimeter = function(length, width) 
 {
   console.log(length + length + width + width);
 };
 
-perimeterBox(3,4);
+perimeter(3,4);
