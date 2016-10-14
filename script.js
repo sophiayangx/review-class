@@ -28,6 +28,4 @@ else {
 console.log("darn");
 };
 
-for (
-
 
