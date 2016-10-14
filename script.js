@@ -1,16 +1,16 @@
-//function button(name) {
-//console.log("Hi my name is" + " " + name);
-//};
-//
-//button(sophia);
+button function(name) {
+console.log("Hi my name is" + " " + name);
+};
+
+button(sophia);
 
 $("#button").click(function() {
   console.log("hihi");
 });
 
-var perimeterBox = function(length, width) 
+var perimeter = function(length, width) 
 {
-  return length + length + width + width;
+  console.log(length + length + width + width);
 };
 
 perimeterBox(3,4);
