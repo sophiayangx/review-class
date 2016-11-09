@@ -1,38 +1,44 @@
-//function(arg 1)
-var greeting = function(name) {
-console.log("Hi my name is" + " " + name);
+function nameLength(name) {
+console.log(name.length);
 };
+nameLength("Sophia");
 
-greeting("Sophia");
 
-//jquery function
-$("#button").click(function() {
-  console.log("hihi");
+function doStuff(name) {
+  console.log(name.toString())
+}
+doStuff(doStuff)
+
+//this one
+$("#clickme").click(function() {
+  console.log("pls show up");
+});
+//this one
+
+function whenClicked() {
+  console.log("hihi")
+  return "111"
+}
+$("#clickme").click(whenClicked)
+
+function onClick() {
+  console.log("Asdf") 
+}
+$("#button").click(onClick())
+$("#button").click(onClick)
+
+$("#button2").keydown(function() {
+  $("#button2").css("background-color", "yellow");
+  console.log("HI")
+});
+$("#button2").keyup(function() {
+  $("#button2").css("background-color", "green");
 });
 
 
-//function(arg1, arg2)
-var perimeter = function(length, width) 
-{
-  console.log(length + length + width + width);
-};
-
-perimeter(3,5);
-
-//if statement
-if (4%2===0) {
-console.log("noice");
-}
-  
-else {
-console.log("darn");
-};
-
-//for loops
-for (var i = 1; i < 11; i = i + 1) {
-  console.log(i);
-}
-
-//list
-var list = [1,2,3,4]
-console.log(list);
+$("#button3").keydown(function(e) {
+  if (e.keyCode == 13) {
+    $("#button3").css("background-color", "green");
+    console.log("bye")
+  }
+});
